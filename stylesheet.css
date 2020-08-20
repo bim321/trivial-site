@@ -19,6 +19,16 @@ header>nav a:hover, .current-page {
     text-shadow:black 0px 0px 3px, black 2px 2px 4px;
 }
 
+label {
+    display:block;
+}
+
+textarea, input[type=text], input[type=email]
+{
+    display: block;
+    width: 400px;
+}
+
 .current-page {
     color: white;
 }
