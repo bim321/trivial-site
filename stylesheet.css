@@ -1,2 +1,31 @@
-h1 {color: red;}
-body {background-color: beige;}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+h1 {color: red;
+    font-family: 'Indie Flower', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+body {background-color: beige;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.marked {background-color: #43bd2b;}
+.larger {font-size: larger;}
+
+#first {font-weight: bold;}
+
+li {
+    list-style-type: square;
+}
+
+blockquote {
+    border: 3px dotted blue;
+    text-decoration: underline;
+}
+
+.recommendation {
+    background-color: #94d38e;
+}
