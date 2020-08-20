@@ -27,7 +27,16 @@
                 </li>
             </ul>
         </nav>
-    </header>    
+    </header>
+    <main>
+        <form action="thankyou.html" method="post">
+            <label for="url">Website URL</label>
+            <input type="url" name="url" id="url" placeholder="https://example.badsite.net" required>
+            <label for="description">Issue description</label>
+            <textarea name="description" id="description" rows="5" placeholder="Briefly describe the main issues experienced." required></textarea>
+            <input type="submit" value="Report the site">
+        </form>
+    </main>
     <footer>
         Copyright &copy; 2020 Peter Urbanec
     </footer>

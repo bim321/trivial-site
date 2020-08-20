@@ -23,7 +23,7 @@ label {
     display:block;
 }
 
-textarea, input[type=text], input[type=email]
+textarea, input[type=text], input[type=email], input[type=url]
 {
     display: block;
     width: 400px;
