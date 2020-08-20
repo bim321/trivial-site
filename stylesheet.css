@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+header>nav>ul>li {
+    display: inline;
+    border: 2px solid blue;
+    margin: 0.25em;
+    padding: 4px;
+}
+
+footer {
+    text-align: center;
+    font-size: 66%;
+}
 
 h1 {color: red;
     font-family: 'Indie Flower', cursive;
