@@ -14,9 +14,13 @@ header>nav a {
     color: black;
 }
 
-header>nav a:hover {
+header>nav a:hover, .current-page {
     color: #ff8;
     text-shadow:black 0px 0px 3px, black 2px 2px 4px;
+}
+
+.current-page {
+    color: white;
 }
 
 footer {
